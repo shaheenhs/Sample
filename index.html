@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="nav-logo">MyProject</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to My GitHub Project</h2>
+                <p>A showcase of my work and skills</p>
+                <button class="cta-button" onclick="scrollToSection('projects')">View Projects</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About This Project</h2>
+                <p>This is a sample GitHub repository demonstrating clean HTML and CSS structure.</p>
+                <div class="features">
+                    <div class="feature">
+                        <h3>Responsive Design</h3>
+                        <p>Works on all devices</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Modern CSS</h3>
+                        <p>Using Flexbox and Grid</p>
+                    </div>
+                    <div class="feature">
+                        <h3>GitHub Ready</h3>
+                        <p>Perfect for repositories</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Project One</h3>
+                        <p>Description of the first project</p>
+                        <a href="#" class="project-link">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Two</h3>
+                        <p>Description of the second project</p>
+                        <a href="#" class="project-link">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Three</h3>
+                        <p>Description of the third project</p>
+                        <a href="#" class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Feel free to reach out for collaborations or questions</p>
+                <div class="contact-info">
+                    <p>Email: your-email@example.com</p>
+                    <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My GitHub Project. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
