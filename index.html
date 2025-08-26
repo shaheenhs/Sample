@@ -1,73 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chef Shahin - Artisan Baker</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Chef Portfolio - Jane Doe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h1>Chef Shahin</h1>
-      <p>Artisan Bakery Chef | Crafted with Passion</p>
-      <a href="#contact" class="btn">Contact Me</a>
-    </div>
-  </header>
+    <header>
+        <div class="header-content">
+            <h1>Jane Doe</h1>
+            <p>Master Bakery Chef & Pastry Artist</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <!-- Navigation -->
-  <nav class="navbar">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://via.placeholder.com/400x500?text=Chef+Portrait" alt="Chef Portrait">
+                <div class="about-text">
+                    <p>With over 15 years of experience in the art of baking, I specialize in creating exquisite pastries, artisan breads, and custom cakes that delight the senses. My passion for using fresh, high-quality ingredients has earned me accolades in top culinary competitions.</p>
+                    <p>From classic French croissants to innovative fusion desserts, my creations blend tradition with creativity. I've worked in renowned bakeries across Europe and now bring my expertise to your table.</p>
+                    <ul class="skills">
+                        <li>Artisan Bread Baking</li>
+                        <li>Pastry Decoration</li>
+                        <li>Custom Cake Design</li>
+                        <li>Chocolate Sculpting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- About -->
-  <section id="about" class="container">
-    <h2>About Me</h2>
-    <p>
-      I am a bakery chef specializing in artisan breads and fine pastries. 
-      From rustic sourdough to buttery croissants, I blend tradition with creativity 
-      to bring warmth and flavor into every bake.
-    </p>
-  </section>
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="https://via.placeholder.com/600x400?text=Cake+1" alt="Cake 1">
+                <img src="https://via.placeholder.com/600x400?text=Bread+2" alt="Bread 2">
+                <img src="https://via.placeholder.com/600x400?text=Pastry+3" alt="Pastry 3">
+                <img src="https://via.placeholder.com/600x400?text=Dessert+4" alt="Dessert 4">
+                <img src="https://via.placeholder.com/600x400?text=Croissant+5" alt="Croissant 5">
+                <img src="https://via.placeholder.com/600x400?text=Cookie+6" alt="Cookie 6">
+            </div>
+        </div>
+    </section>
 
-  <!-- Skills -->
-  <section id="skills" class="container">
-    <h2>Signature Bakes</h2>
-    <div class="skills-grid">
-      <div class="card">🥖 Sourdough</div>
-      <div class="card">🥐 Croissant</div>
-      <div class="card">🍞 Brioche</div>
-      <div class="card">🥯 Bagels & Muffins</div>
-      <div class="card">🥪 Ciabatta & Panini</div>
-    </div>
-  </section>
+    <section id="recipes" class="section">
+        <div class="container">
+            <h2>Featured Recipes</h2>
+            <div class="recipes-grid">
+                <div class="recipe-card">
+                    <img src="https://via.placeholder.com/400x300?text=Recipe+1" alt="Recipe 1">
+                    <h3>Classic Sourdough Bread</h3>
+                    <p>A tangy, crusty loaf made with natural fermentation. Perfect for sandwiches or toasting.</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://via.placeholder.com/400x300?text=Recipe+2" alt="Recipe 2">
+                    <h3>Decadent Chocolate Cake</h3>
+                    <p>Rich layers of moist chocolate cake with ganache frosting. A crowd-pleaser for any occasion.</p>
+                </div>
+                <div class="recipe-card">
+                    <img src="https://via.placeholder.com/400x300?text=Recipe+3" alt="Recipe 3">
+                    <h3>Fresh Berry Tart</h3>
+                    <p>Buttery crust filled with creamy custard and topped with seasonal berries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Gallery -->
-  <section id="gallery" class="container">
-    <h2>Gallery</h2>
-    <div class="gallery-grid">
-      <img src="https://source.unsplash.com/500x400/?bread" alt="Bread">
-      <img src="https://source.unsplash.com/500x400/?croissant" alt="Croissant">
-      <img src="https://source.unsplash.com/500x400/?bakery" alt="Bakery">
-      <img src="https://source.unsplash.com/500x400/?brioche" alt="Brioche">
-    </div>
-  </section>
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: jane@bakerychef.com</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Location: New York, USA</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:chefshahin@example.com">chefshahin@example.com</a></p>
-    <p>📸 Instagram: <a href="https://instagram.com/" target="_blank">@chefshahin</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Chef Shahin. Crafted with ❤️</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Jane Doe. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Pinterest</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
 </body>
 </html>
