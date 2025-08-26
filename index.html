@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bakery Chef Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    * {margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif;}
-    body {background:#fffaf3; color:#333; line-height:1.6;}
-    header {background:#f7c59f; padding:20px; text-align:center;}
-    header h1 {font-size:2.5rem; color:#5c3d2e;}
-    nav {margin-top:10px;}
-    nav a {margin:0 15px; text-decoration:none; color:#5c3d2e; font-weight:600;}
-    section {padding:50px 20px; max-width:1000px; margin:auto;}
-    .hero {text-align:center; padding:80px 20px;}
-    .hero h2 {font-size:2rem; margin-bottom:15px; color:#5c3d2e;}
-    .hero p {font-size:1.1rem;}
-    .gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; margin-top:30px;}
-    .gallery img {width:100%; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
-    .about, .contact {background:#fff3e6; border-radius:15px; padding:30px;}
-    footer {text-align:center; padding:20px; background:#f7c59f; color:#5c3d2e; margin-top:40px;}
-    button {padding:10px 20px; border:none; border-radius:25px; background:#5c3d2e; color:#fff; cursor:pointer;}
-    button:hover {background:#40241a;}
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chef Shahin - Artisan Baker</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Chef Shaheen’s Bakery</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>Chef Shahin</h1>
+    <p>Artisan Bakery Chef | Sourdough • Brioche • Croissant</p>
   </header>
 
-  <section class="hero">
-    <h2>Artisan Breads, Cakes & Pastries</h2>
-    <p>Welcome to my sweet world of baking! I craft handmade breads, elegant cakes, and delightful pastries with love and passion.</p>
-    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Hire Me</button>
-  </section>
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section id="about" class="about">
+  <!-- About Section -->
+  <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I am Shaheen, a passionate bakery chef with years of experience in baking artisan breads, pastries, and cakes. My philosophy is to combine creativity with the finest ingredients to create unforgettable flavors and designs.</p>
+    <p>
+      I am a passionate bakery chef specializing in artisan breads and pastries. 
+      From classic sourdough to buttery croissants, I craft each bake with precision, 
+      tradition, and love for the art of baking.
+    </p>
   </section>
 
-  <section id="portfolio">
-    <h2 style="text-align:center; color:#5c3d2e;">My Creations</h2>
-    <div class="gallery">
-      <img src="https://source.unsplash.com/400x300/?bread" alt="Bread">
-      <img src="https://source.unsplash.com/400x300/?cake" alt="Cake">
-      <img src="https://source.unsplash.com/400x300/?pastry" alt="Pastry">
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Signature Bakes</h2>
+    <ul>
+      <li>🥖 Sourdough</li>
+      <li>🥐 Croissant</li>
+      <li>🍞 Brioche</li>
+      <li>🥯 Bagels & English Muffins</li>
+      <li>🥪 Ciabatta & Panini</li>
+    </ul>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery-container">
+      <img src="https://source.unsplash.com/400x300/?bread" alt="Artisan Bread">
+      <img src="https://source.unsplash.com/400x300/?croissant" alt="Croissant">
       <img src="https://source.unsplash.com/400x300/?bakery" alt="Bakery">
     </div>
   </section>
 
-  <section id="contact" class="contact">
-    <h2>Contact Me</h2>
-    <p>Let’s create something delicious together! Reach out for custom orders, collaborations, or events.</p>
-    <p>Email: <a href="mailto:roastbakery@gmail.com">roastbakery@gmail.com</a></p>
-    <p>Instagram: <a href="https://instagram.com" target="_blank">@mybakery</a></p>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:chefshahin@example.com">chefshahin@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/" target="_blank">@chefshahin</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Chef Shaheen | Made with ❤️ & Flour</p>
+    <p>© 2025 Chef Shahin. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
